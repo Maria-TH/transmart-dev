@@ -45,7 +45,7 @@ class DependencyManagement {
             //   to inclue the plugin, uncomment the following two lines
             //   and see related comment block above 
             runtime ':dalliance-plugin:0.2-SNAPSHOT'
-            // runtime ':transmart-mydas:unknown'
+            runtime ':transmart-mydas:0.1-SNAPSHOT'
             runtime ':transmart-rest-api:16.1'
             runtime ':blend4j-plugin:16.1'
             runtime ':transmart-metacore-plugin:16.1'
