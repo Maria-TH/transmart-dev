@@ -20,7 +20,7 @@ class DependencyManagement {
         }
 
         dsl.plugins {
-            runtime ':smart-r:1.0.RC1-SNAPSHOT'
+            //runtime ':smart-r:1.0.RC1-SNAPSHOT'
             compile ':rdc-rmodules:16.1'
             runtime ':transmart-core:16.1'
 
@@ -64,6 +64,7 @@ class DependencyManagement {
     def inlineInternalDependencies(grails, grailsSettings) {
         grails.plugin.location.'folder-management' = "../folder-management-plugin"
         grails.plugin.location.'transmart-rest-api' = "../transmart-rest-api"
+        grails.plugin.location.'smart-r' = "../SmartR"
     }
 
 }
