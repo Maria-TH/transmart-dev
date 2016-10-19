@@ -33,7 +33,7 @@ class DependencyManagement {
             //// already included in transmart-gwas
             //compile ':transmart-legacy-db:16.1'
             //// already included in transmart-gwas
-            //compile ':folder-management:16.1'
+            //compile ':folder-management:16.1' // as there are local modification
             //// already included in transmart-gwas, folder-management
             //compile ':search-domain:16.1'
             //// already included in search-domain, transmart-gwas,
@@ -46,7 +46,7 @@ class DependencyManagement {
             //   and see related comment block above 
             runtime ':dalliance-plugin:0.2-SNAPSHOT'
             runtime ':transmart-mydas:0.1-SNAPSHOT'
-            runtime ':transmart-rest-api:16.1'
+            //runtime ':transmart-rest-api:16.1' // as there are local modification
             runtime ':blend4j-plugin:16.1'
             runtime ':transmart-metacore-plugin:16.1'
 
