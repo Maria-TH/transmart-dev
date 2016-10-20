@@ -64,6 +64,7 @@ class DependencyManagement {
     def inlineInternalDependencies(grails, grailsSettings) {
         grails.plugin.location.'folder-management' = "../folder-management-plugin"
         grails.plugin.location.'transmart-rest-api' = "../transmart-rest-api"
+        grails.plugin.location.'transmart-core-db' = "../transmart-core-db"
         //grails.plugin.location.'smart-r' = "../SmartR"
     }
 
