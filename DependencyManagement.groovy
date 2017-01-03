@@ -48,7 +48,7 @@ class DependencyManagement {
             runtime ':transmart-mydas:0.1-SNAPSHOT'
             //runtime ':transmart-rest-api:16.1' // as there are local modification
             runtime ':blend4j-plugin:16.1'
-            runtime ':transmart-metacore-plugin:16.1'
+            //runtime ':transmart-metacore-plugin:16.1'
 
             test ':transmart-core-db-tests:16.1'
         }
@@ -66,6 +66,7 @@ class DependencyManagement {
         grails.plugin.location.'transmart-rest-api' = "../transmart-rest-api"
         grails.plugin.location.'transmart-core-db' = "../transmart-core-db"
         //grails.plugin.location.'smart-r' = "../SmartR"
+        grails.plugin.location.'transmart-metacore-plugin' = "../transmart-metacore-plugin"
     }
 
 }
