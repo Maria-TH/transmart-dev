@@ -20,7 +20,7 @@ class DependencyManagement {
         }
 
         dsl.plugins {
-            runtime ':smart-r:1.0-STABLE-SNAPSHOT'
+            runtime ':smart-r:1.2-STABLE-SNAPSHOT'
             compile ':rdc-rmodules:16.1'
             runtime ':transmart-core:16.1'
 
