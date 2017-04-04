@@ -35,7 +35,7 @@ class DependencyManagement {
             //// already included in transmart-gwas
             //compile ':folder-management:16.1' // as there are local modification
             //// already included in transmart-gwas, folder-management
-            //compile ':search-domain:16.1'
+            compile ':search-domain:16.1'
             //// already included in search-domain, transmart-gwas,
             //                       folder-management
             //compile ':biomart-domain:16.1'
@@ -67,6 +67,7 @@ class DependencyManagement {
         grails.plugin.location.'transmart-core-db' = "../transmart-core-db"
         //grails.plugin.location.'smart-r' = "../SmartR"
         grails.plugin.location.'transmart-metacore-plugin' = "../transmart-metacore-plugin"
+        grails.plugin.location.'search-domain' = "../transmart-extensions/search-domain"
     }
 
 }
